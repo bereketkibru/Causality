@@ -1,4 +1,4 @@
-name: your-workflow-name
+name: dvc
 on: [push]
 jobs:
   run:
@@ -19,4 +19,4 @@ jobs:
           dvc pull data/data.csv --run-cache
           echo "### data pulled"
           #cat results.txt >> report.md
-          cml-send-comment report.md
+          #cml-send-comment report.md
