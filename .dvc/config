@@ -1,0 +1,4 @@
+[core]
+    remote = dvc-romote
+['remote "dvc-romote"']
+    url = G:/10_academy/Week_7/solutions/temp
