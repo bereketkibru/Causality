@@ -24,7 +24,7 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
     ],
-    description="Pharmaceutical Sales Prediction Across Multiple Stores",
+    description="Causalty",
     install_requires=requirements,
     long_description=readme,
     include_package_data=True,
@@ -33,7 +33,7 @@ setup(
     packages=find_packages(include=['scripts', 'scripts.*']),
     test_suite='tests',
     tests_require=test_requirements,
-    url='https://github.com/bereketkibru/Pharmaceutical-Sales-Prediction.git',
+    url='https://github.com/bereketkibru/casualty.git',
     version='0.1.0',
     zip_safe=False,
 )
