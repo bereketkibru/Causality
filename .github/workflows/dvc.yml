@@ -1,4 +1,4 @@
-name: dvc
+name: dvc 
 on: [push]
 jobs:
   run:
@@ -13,10 +13,12 @@ jobs:
           #python train.py
       - name: Write CML report
         env:
-          REPO_TOKEN: ${{ secrets.DVC}}
+          REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DVC: ${{ secrets.DVC }}
+
         run: |
           # Post reports as comments in GitHub PRs
           dvc pull data/data.csv --run-cache
           echo "### data pulled"
           #cat results.txt >> report.md
-          #cml-send-comment report.md
+          cml-send-comment report.md
