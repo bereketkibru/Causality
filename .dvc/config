@@ -1,6 +1,4 @@
 [core]
     remote = myremote
-['remote "dvc-romote"']
-    url = G:/10_academy/Week_7/solutions/temp
 ['remote "myremote"']
     url = gdrive://1KFcd7nW14l-CuA3t8h5EG4SxLjbSEsrr
