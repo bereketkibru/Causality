@@ -1,4 +1,4 @@
-# Causualty
+# Causality
 ## Data overview
 Consequently, detecting cancer at an early stage gives a 30% chance of it being treated
 effectively, while late detection makes its treatment complex. In detecting breast cancer at
